@@ -1,8 +1,8 @@
 """Tasks of the project."""
 
-from invoke import task
-
 from pathlib import Path
+
+from invoke import task
 
 @task
 def venv(c, force=False):
